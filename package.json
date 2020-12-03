@@ -1,0 +1,29 @@
+{
+  "name": "facial-recognition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.0",
+    "@tensorflow/tfjs-converter": "^1.7.0",
+    "@tensorflow/tfjs-core": "^1.7.0",
+    "@tensorflow/tfjs-node": "^1.7.0",
+    "canvas": "^2.6.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "face-api.js": "^0.22.2",
+    "memory-cache": "^0.2.0",
+    "mysql2": "^2.2.5",
+    "node-p5": "^1.0.3",
+    "p5": "^1.1.9",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
